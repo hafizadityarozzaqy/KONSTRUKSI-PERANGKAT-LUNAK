@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Tubes_Software_Construction_BEN_ID
 {
-    public partial class SignUp : Form
+    public partial class Pembayaran : Form
     {
-        public SignUp()
+        public Pembayaran()
         {
             InitializeComponent();
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
