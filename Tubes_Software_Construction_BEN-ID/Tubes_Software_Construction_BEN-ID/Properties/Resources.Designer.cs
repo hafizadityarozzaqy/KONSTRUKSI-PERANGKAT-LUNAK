@@ -83,6 +83,16 @@ namespace Tubes_Software_Construction_BEN_ID.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Search2 {
+            get {
+                object obj = ResourceManager.GetObject("Search2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2020_11_29_at_12_20_27 {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2020-11-29 at 12.20.27", resourceCulture);
