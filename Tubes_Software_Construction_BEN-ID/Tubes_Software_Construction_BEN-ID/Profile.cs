@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using Newtonsoft.Json;
 
 namespace Tubes_Software_Construction_BEN_ID
 {
@@ -18,6 +19,7 @@ namespace Tubes_Software_Construction_BEN_ID
         private object inputEmail;
         private object inputPass;
         private object inputnamapengguna;
+        private static object obj;
 
         public object JsonConvert { get; private set; }
 
@@ -60,8 +62,15 @@ namespace Tubes_Software_Construction_BEN_ID
 
             List<db_register> listJson = JsonConvert.DeserializeObject<List<db_register>>(bacaData);
             listJson.Add(userRegister);
-            var data = JsonConvert.SerializeObject(listJson, Formatting.Indented);
+            var data = JsonConvert.DerializeObject(listJson, Formatting.Indented);
             File.WriteAllText("D:/Parsing.json", data);
         }
+
+        // Menyimpan file JSON ke lokasi path yang ada di parameter dengan tipe generik yang dimasukan.
+        public static void SaveToJson("C:/Users/lenovo/Documents/File json")
+        {
+            string json = JsonConvert.SerializeObject(obj, Formatting.Indented);
+            File.WriteAllText("C: /Users/lenovo/Documents/File json, json");
+            }
     }
 }
