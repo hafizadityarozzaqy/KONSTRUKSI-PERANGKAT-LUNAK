@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Automata.cs" />
+    <Compile Include="db_register.cs" />
     <Compile Include="DesignPattern.cs" />
     <Compile Include="isiBBM.cs">
       <SubType>Form</SubType>
@@ -73,6 +74,7 @@
     <Compile Include="Pembayaran.Designer.cs">
       <DependentUpon>Pembayaran.cs</DependentUpon>
     </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="Profile.cs">
       <SubType>Form</SubType>
     </Compile>
