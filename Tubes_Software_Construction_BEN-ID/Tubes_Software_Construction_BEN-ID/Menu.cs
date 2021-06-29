@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Tubes_Software_Construction_BEN_ID
 {
-    public partial class isiBBM : Form
+    public partial class Menu : Form
     {
-        public isiBBM()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void isiBBM_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
         {
 
         }
