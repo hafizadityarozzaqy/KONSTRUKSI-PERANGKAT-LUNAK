@@ -16,5 +16,10 @@ namespace Tubes_Software_Construction_BEN_ID
         {
             InitializeComponent();
         }
+
+        private void isiBBM_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
