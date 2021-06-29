@@ -90,6 +90,7 @@ namespace Tubes_Software_Construction_BEN_ID
             this.label1.Size = new System.Drawing.Size(184, 67);
             this.label1.TabIndex = 4;
             this.label1.Text = "PROFILE";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
