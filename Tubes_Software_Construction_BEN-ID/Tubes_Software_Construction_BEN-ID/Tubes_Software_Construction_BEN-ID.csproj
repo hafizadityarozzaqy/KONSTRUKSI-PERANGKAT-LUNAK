@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Automata.cs" />
+    <Compile Include="DesignPattern.cs" />
     <Compile Include="isiBBM.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +87,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingletonPattern.cs" />
     <EmbeddedResource Include="isiBBM.resx">
       <DependentUpon>isiBBM.cs</DependentUpon>
     </EmbeddedResource>
