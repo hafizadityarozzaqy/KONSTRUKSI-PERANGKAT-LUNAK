@@ -26,5 +26,16 @@ namespace Tubes_Software_Construction_BEN_ID
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new Login().Show();
+            this.Hide();
+        }
     }
 }

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Automata.cs" />
     <Compile Include="isiBBM.cs">
       <SubType>Form</SubType>
     </Compile>
