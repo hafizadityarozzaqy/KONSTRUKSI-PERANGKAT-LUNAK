@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Tubes_Software_Construction_BEN_ID
 {
-    public partial class isiBBM : Form
+    public partial class Barcode : Form
     {
-        public isiBBM()
+        public Barcode()
         {
             InitializeComponent();
         }
 
-        private void isiBBM_Load(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(" Kode Kadaluarasa ");
         }
     }
 }

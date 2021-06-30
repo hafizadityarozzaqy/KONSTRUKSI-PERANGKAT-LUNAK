@@ -22,9 +22,23 @@ namespace Tubes_Software_Construction_BEN_ID
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            new Profile().Show();
+            Parameter.email = txtemail.Text;
+            this.Hide();
+            Parameter.namalengkap = txtnamalengkap.Text;
+            this.Hide();
+            Parameter.uname = txtuname.Text;
+            this.Hide();
+            Parameter.pass = txtpass.Text;
+            this.Hide();
+            Info a = new Info();
+            a.Show();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new Login().Show();
             this.Hide();
         }
     }
