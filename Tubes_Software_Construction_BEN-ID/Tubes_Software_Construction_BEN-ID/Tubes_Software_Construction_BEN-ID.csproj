@@ -47,6 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Automata.cs" />
+    <Compile Include="IsiBBM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IsiBBM.Designer.cs">
+      <DependentUpon>IsiBBM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BakaraTabelDriven.cs" />
     <Compile Include="db_register.cs" />
     <Compile Include="DesignPattern.cs" />
     <Compile Include="Barcode.cs">
@@ -60,12 +67,6 @@
     </Compile>
     <Compile Include="Info.Designer.cs">
       <DependentUpon>Info.cs</DependentUpon>
-    </Compile>
-    <Compile Include="isiBBM.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="isiBBM.Designer.cs">
-      <DependentUpon>isiBBM.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -103,14 +104,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SingletonPattern.cs" />
+    <EmbeddedResource Include="IsiBBM.resx">
+      <DependentUpon>IsiBBM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Barcode.resx">
       <DependentUpon>Barcode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Info.resx">
       <DependentUpon>Info.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="isiBBM.resx">
-      <DependentUpon>isiBBM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
