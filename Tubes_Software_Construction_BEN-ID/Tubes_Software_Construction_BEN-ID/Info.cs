@@ -10,21 +10,19 @@ using System.Windows.Forms;
 
 namespace Tubes_Software_Construction_BEN_ID
 {
-    public partial class Menu : Form
+    public partial class Info : Form
     {
-        public Menu()
+        public Info()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Info_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void Menu_Load(object sender, EventArgs e)
-        {
-
+            lblemail.Text = Parameter.email;
+            lblnamalengkap.Text = Parameter.namalengkap;
+            lbluname.Text = Parameter.uname;
+            lblpass.Text = Parameter.pass;
         }
     }
 }
