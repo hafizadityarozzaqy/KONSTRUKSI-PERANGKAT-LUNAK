@@ -29,8 +29,6 @@ namespace Tubes_Software_Construction_BEN_ID
         /// </summary>
         private void InitializeComponent()
         {
-            this.label4 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtpass = new System.Windows.Forms.TextBox();
@@ -39,36 +37,15 @@ namespace Tubes_Software_Construction_BEN_ID
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtemail = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtnamalengkap = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(110, 97);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 59);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "BEN-ID";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Bauhaus 93", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(106, 156);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(135, 15);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "--------------------------------";
             // 
             // label7
             // 
@@ -145,18 +122,6 @@ namespace Tubes_Software_Construction_BEN_ID
             this.txtemail.Size = new System.Drawing.Size(168, 20);
             this.txtemail.TabIndex = 24;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(41, 222);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 16);
-            this.label6.TabIndex = 23;
-            this.label6.Text = "Email                   :";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -208,6 +173,40 @@ namespace Tubes_Software_Construction_BEN_ID
             this.linkLabel1.Text = "Kembali ke Login";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Bauhaus 93", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(106, 158);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(135, 15);
+            this.label4.TabIndex = 33;
+            this.label4.Text = "--------------------------------";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Agency FB", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(110, 99);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(131, 59);
+            this.label6.TabIndex = 32;
+            this.label6.Text = "BEN-ID";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(41, 223);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(97, 16);
+            this.label8.TabIndex = 34;
+            this.label8.Text = "Email                   :";
+            // 
             // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,13 +215,15 @@ namespace Tubes_Software_Construction_BEN_ID
             this.BackgroundImage = global::Tubes_Software_Construction_BEN_ID.Properties.Resources.Search2;
             this.ClientSize = new System.Drawing.Size(354, 512);
             this.ControlBox = false;
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtnamalengkap);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtemail);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtpass);
             this.Controls.Add(this.txtuname);
@@ -230,19 +231,16 @@ namespace Tubes_Software_Construction_BEN_ID
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SignUp";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.SignUp_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtpass;
@@ -251,11 +249,13 @@ namespace Tubes_Software_Construction_BEN_ID
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtemail;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtnamalengkap;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label8;
     }
 }
