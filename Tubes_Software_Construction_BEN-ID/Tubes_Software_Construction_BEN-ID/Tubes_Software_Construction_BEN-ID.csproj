@@ -74,7 +74,6 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginDesign.cs" />
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
