@@ -12,6 +12,33 @@ namespace Tubes_Software_Construction_BEN_ID
 {
     public partial class Login : Form
     {
+        class GetSetLogin<T>
+        {
+            public T isiUsername, isiPassword;
+
+            public GetSetLogin(T isiUsername, T isiPassword)
+            {
+                this.isiUsername = isiUsername;
+                this.isiPassword = isiPassword;
+            }
+
+            public T getUsername()
+            {
+                return isiUsername;
+            }
+            public void setUsername(T isiUsername)
+            {
+                this.isiUsername = isiUsername;
+            }
+            public T getPassword()
+            {
+                return isiPassword;
+            }
+            public void setPassword(T isiPassword)
+            {
+                this.isiPassword = isiPassword;
+            }
+        }
         public Login()
         {
             InitializeComponent();
