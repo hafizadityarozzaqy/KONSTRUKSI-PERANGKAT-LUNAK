@@ -2,5 +2,9 @@
 {
     internal class Person
     {
+        internal object Email;
+        internal object Nomortelepon;
+
+        public object NamaPengguna { get; internal set; }
     }
 }
