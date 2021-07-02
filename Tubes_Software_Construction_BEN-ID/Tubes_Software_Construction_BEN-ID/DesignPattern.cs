@@ -8,7 +8,6 @@ namespace Tubes_Software_Construction_BEN_ID
 {
     class DesignPattern
     {
-        // Komponen pada enum status.
         public enum Status
         {
             Empty, Pengisian, Pembayaran
@@ -18,17 +17,8 @@ namespace Tubes_Software_Construction_BEN_ID
 
         public static SingletonPattern GetInstance() => _singleton.Value;
 
-        // Method homepage.
         private Status homepage;
 
-        // Kondisi dimana pada tampilan masih kosong.
-        private SingletonPattern()
-        {
-            Console.WriteLine("login");
-            homepage = Status.Empty;
-        }
-
-        // Kondisi dimana pada tampilan isi bbm status sebagai pengisian pembelian.
         public void isiBBM()
         {
             if (!IsEmpty) return;
@@ -36,8 +26,6 @@ namespace Tubes_Software_Construction_BEN_ID
             homepage = Status.Pengisian;
         }
 
-
-        // Kondisi dimana pada tampilan pembayaran status sebagai pembayaran dalam pengisian BBM.
         public void Pembayaran()
         {
             if (IsPembayaran || IsEmpty) return;

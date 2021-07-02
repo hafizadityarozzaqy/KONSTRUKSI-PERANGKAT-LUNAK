@@ -17,29 +17,15 @@ namespace Tubes_Software_Construction_BEN_ID
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Parameter.email = txtemail.Text;
-            this.Hide();
-            Parameter.namalengkap = txtnamalengkap.Text;
-            this.Hide();
-            Parameter.uname = txtuname.Text;
-            this.Hide();
-            Parameter.pass = txtpass.Text;
-            this.Hide();
-            Info a = new Info();
-            a.Show();
-        }
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             new Login().Show();
             this.Hide();
+        }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

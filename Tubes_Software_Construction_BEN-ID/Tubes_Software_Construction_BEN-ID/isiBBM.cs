@@ -10,16 +10,27 @@ using System.Windows.Forms;
 
 namespace Tubes_Software_Construction_BEN_ID
 {
-    public partial class isiBBM : Form
+    public partial class IsiBBM : Form
     {
-        public isiBBM()
+        static BakaraTabelDriven.BBM id = BakaraTabelDriven.BBM.PERTAMAX;
+        public string BBM = id.ToString();
+        public string Harga = BakaraTabelDriven.GetHarga(id);
+
+        public IsiBBM()
         {
             InitializeComponent();
         }
 
-        private void isiBBM_Load(object sender, EventArgs e)
+        private void BakaraIsiBBM_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Pembayaran pm = new Pembayaran();
+            pm.Show();
         }
     }
 }
