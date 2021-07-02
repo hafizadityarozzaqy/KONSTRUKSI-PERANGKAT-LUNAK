@@ -8,6 +8,7 @@ namespace Tubes_Software_Construction_BEN_ID
 {
     class DesignPattern
     {
+
         public enum Status
         {
             Empty, Pengisian, Pembayaran
