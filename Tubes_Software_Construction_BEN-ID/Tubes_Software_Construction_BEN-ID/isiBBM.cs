@@ -14,7 +14,7 @@ namespace Tubes_Software_Construction_BEN_ID
     {
         static BakaraTabelDriven.BBM id = BakaraTabelDriven.BBM.PERTAMAX;
         public string BBM = id.ToString();
-        public string Harga = BakaraTabelDriven.GetHarga(id);
+        public int Harga = BakaraTabelDriven.GetHarga(id);
 
         public IsiBBM()
         {
